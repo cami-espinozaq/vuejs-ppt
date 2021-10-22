@@ -12,3 +12,41 @@
     </script>
   </body>
 </html>
+
+
+<div class="shell-body">
+  <div data-tab="html" class="shell-tab-content active">
+    <figure class="highlight">
+      <pre>
+        <code data-lang="html" class="language-html">
+          <span class="nt">&lt;!DOCTYPE html&gt;</span>
+          <span class="nt">&lt;head&gt;</span>
+          <span class="nt">&lt;/head&gt;</span>
+          <span class="nt">&lt;body&gt;</span>
+
+          <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"app"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;/div&gt;</span>
+          <span class="nt">&lt;script&gt;</span>
+        </code>
+      </pre>
+      <pre><code>
+        <code data-lang="javascript" class="language-javascript"><span class="k">import</span> <span class="nx">Vue</span> <span class="k">from</span> <span class="s1">'vue'</span>
+          <span class="k">import</span> <span class="nx">VueFullPage</span> <span class="k">from</span> <span class="s1">'vue-fullpage'</span>
+          <span class="nx">Vue</span><span class="p">.</span><span class="nx">use</span><span class="p">(</span><span class="nx">VueFullPage</span><span class="p">);</span>
+
+          <span class="k">new</span> <span class="nx">Vue</span><span class="p">({</span>
+            <span class="na">el</span><span class="p">:</span> <span class="s1">'#app'</span><span class="p">,</span>
+            <span class="na">render</span><span class="p">:</span> <span class="nx">h</span> <span class="o">=&gt;</span> <span class="nx">h</span><span class="p">(</span><span class="nx">App</span><span class="p">)</span>
+          <span class="p">});</span>
+        </code>
+      </code></pre>
+      <pre>  
+        <code data-lang="html" class="language-html">
+          <span class="nt">&lt;/script&gt;</span>
+          <span class="nt">&lt;/body&gt;</span>
+          <span class="nt">&lt;/html&gt;</span>
+        </code>
+      </pre>
+    </figure>
+  </div>
+</div>
