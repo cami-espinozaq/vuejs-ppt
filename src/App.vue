@@ -52,9 +52,17 @@
         <div class="slide">
           <slide-three></slide-three>
         </div>
+        <div class="slide">
+          <slide-four></slide-four>
+        </div>
       </div>
       <div class="section">
-        <h3>Section 3</h3>
+        <div class="slide">
+          <h3>Examples using Vue 2</h3>
+        </div>
+        <div class="slide">
+          <slide-five></slide-five>
+        </div>
       </div>
     </full-page>
   </div>
@@ -65,9 +73,11 @@ import SlideOne from './components/SlideOne.vue';
 import SlideTwo from './components/SlideTwo.vue';
 import './assets/styles/code.css';
 import SlideThree from './components/SlideThree.vue';
+import SlideFour from './components/SlideFour.vue';
+import SlideFive from './components/SlideFive.vue';
 
 export default {
-  components: { SlideOne, SlideTwo, SlideThree },
+  components: { SlideOne, SlideTwo, SlideThree, SlideFour, SlideFive },
   name: 'app',
   data() {
     return {

@@ -1,6 +1,6 @@
 <template>
   <div class="slide-content">
-    <h1>Can be used similarly to jQuery</h1>
+    <h1>Can be used similarly to jQuery (Runtime only)</h1>
     <div class="compare">
       <img :src="imgJquery" />
       <img :src="imgVue" />
@@ -24,10 +24,6 @@ export default {
 </script>
 
 <style lang="sass">
-
-.shell-body
-  font-size: .9rem
-  background-color: #173549
 
 .compare
   display: flex
